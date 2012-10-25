@@ -10,6 +10,9 @@ describe Kekka do
 
     it "should return boats" do
       subject[:boats].size.should == 9
+      subject[:boats].each do |boat_id, one_boat_hash|
+        one_boat_hash.should have_keys(['boatname', 'sailnumber', 'boatid'])
+      end
     end
   end
 end
