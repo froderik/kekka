@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<SailingXRR Date="20100216" Time="195923" Type="SailingXRR" Version="1.3" 
-		xsi:noNamespaceSchemaLocation="http://www.sailing.org/uploads/xml/sailingXRR_v1.3.xsd" 
+<SailingXRR Date="20100216" Time="195923" Type="SailingXRR" Version="1.3"
+		xsi:noNamespaceSchemaLocation="http://www.sailing.org/uploads/xml/sailingXRR_v1.3.xsd"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Person FamilyName="Wang-Hansen" GivenName="Aleksander" IFPersonID="noraw2" NOC="NOR" PersonID="noraw2"/>
 	<Person FamilyName="Kristiansen" GivenName="Per Eugen" IFPersonID="norpk4" NOC="NOR" PersonID="norpk4"/>
@@ -36,7 +36,7 @@
 	<Boat BoatID="4" BoatName="" SailNumber="USA 674"/>
 	<Boat BoatID="5" BoatName="" SailNumber="IRL 694"/>
 	<Boat BoatID="6" BoatName="" SailNumber="GBR 702"/>
-	<Boat BoatID="7" BoatName="" SailNumber="FRA 739"/>
+	<Boat BoatID="7" BoatName="jolle" SailNumber="FRA 739"/>
 	<Boat BoatID="8" BoatName="" SailNumber="USA 774"/>
 	<Team Gender="Open" NOC="NOR" TeamID="NORAW2" TeamName="" BoatID="0">
 		<Crew PersonID="NORAW2" Position="S"/>
