@@ -13,7 +13,7 @@ describe Kekka do
 
       it "should return boats" do
         subject[:boats].size.should == 9
-        subject[:boats].each do |boat_id, one_boat_hash|
+        subject[:boats].each do |_, one_boat_hash|
           one_boat_hash.should have_keys(['boatname', 'sailnumber', 'boatid'])
         end
       end
@@ -34,7 +34,7 @@ describe Kekka do
 
       it "should return races" do
         subject[:races].size.should == 10
-        subject[:races].each do |race_id, race_hash|
+        subject[:races].each do |_, race_hash|
           race_keys = ['racename', 'racenumber', 'racestartdate', 'racestarttime', 'racestatus', 'raceid']
           race_hash.should have_keys(race_keys)
         end
@@ -67,6 +67,20 @@ describe Kekka do
         subject[:raceresults].each do |one_result|
           one_result.should have_keys ['teamid', 'discard', 'raceid', 'racepoints', 'scorecode']
         end
+      end
+    end
+
+    describe 'teams' do
+      subject { kekka[:teams] }
+
+      it "should return teams" do
+        subject.size.should == 9
+        subject.each { |_, team| team.should have_keys ['gender', 'noc', 'teamid', 'teamname', 'boatid'] }
+      end
+
+      it "should have a crew" do
+        subject['GERJK6'][:crew].size.should == 3
+        subject['GERJK6'][:crew].each { |one_crew| one_crew.should have_keys ['personid', 'position'] }
       end
     end
   end

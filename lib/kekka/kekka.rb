@@ -6,6 +6,9 @@ class Kekka < Hash
     result = Kekka.new
 
     result[:boats] = hash_from document, 'boat'
+    result[:teams] = hash_from document, 'team' do  |attributes_hash, node|
+      attributes_hash[:crew] = array_from node, 'crew'
+    end
     result[:events] = hash_from document, 'event' do |attributes_hash, node|
       attributes_hash[:races]     = hash_from node, 'race'
       attributes_hash[:divisions] = hash_from node, 'division' do |attributes_hash, node|
