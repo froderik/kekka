@@ -9,15 +9,17 @@ class Kekka < Hash
     result[:events] = hash_from document, 'event' do |attributes_hash, node|
       attributes_hash[:races]     = hash_from node, 'race'
       attributes_hash[:divisions] = hash_from node, 'division' do |attributes_hash, node|
-        attributes_hash[:raceresults] = node.css('raceresult').map do |one_raceresult|
-          hash_from_node one_raceresult
-        end
+        attributes_hash[:raceresults] = array_from node, 'raceresult'
       end
     end
     result
   end
 
   private
+
+  def self.array_from node, name
+    node.css(name).map { |one_node| hash_from_node one_node }
+  end
 
   def self.hash_from node, name
     key_value_pairs = node.css( name ).map do |matching_node|
@@ -35,4 +37,5 @@ class Kekka < Hash
     end
     Hash[key_value_pairs]
   end
+
 end
