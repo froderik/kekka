@@ -7,7 +7,12 @@ class Kekka < Hash
 
     result[:boats] = hash_from document, 'boat'
     result[:events] = hash_from document, 'event' do |attributes_hash, node|
-      attributes_hash[:races] = hash_from node, 'race'
+      attributes_hash[:races]     = hash_from node, 'race'
+      attributes_hash[:divisions] = hash_from node, 'division' do |attributes_hash, node|
+        attributes_hash[:raceresults] = node.css('raceresult').map do |one_raceresult|
+          hash_from_node one_raceresult
+        end
+      end
     end
     result
   end

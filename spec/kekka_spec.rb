@@ -47,6 +47,24 @@ describe Kekka do
         subject[:races]['383']['racestarttime'].should == '111000'
         subject[:races]['383']['racestatus'   ].should == 'Provisional'
       end
+
+      it "should return divisions" do
+        subject[:divisions].size.should == 1
+        subject[:divisions]['1'].should have_keys ['gender', 'title']
+      end
+    end
+
+    describe 'one division' do
+      subject { kekka[:events]['9'][:divisions]['1'] }
+
+      it "should return specifics about a division" do
+        subject['title'].should == 'Sonar'
+        subject['gender'].should == 'Open'
+      end
+
+      it "should return a bunch of race results" do
+        subject[:raceresults].size.should == 90
+      end
     end
 
   end
