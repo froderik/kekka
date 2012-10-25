@@ -14,6 +14,7 @@ class Kekka < Hash
       attributes_hash[:races]     = hash_from node, 'race'
       attributes_hash[:divisions] = hash_from node, 'division' do |attributes_hash, node|
         attributes_hash[:raceresults] = array_from node, 'raceresult'
+        attributes_hash[:seriesresults] = array_from node, 'seriesresult'
       end
     end
     result

@@ -68,6 +68,13 @@ describe Kekka do
           one_result.should have_keys ['teamid', 'discard', 'raceid', 'racepoints', 'scorecode']
         end
       end
+
+      it "should return a bunch of series results" do
+        subject[:seriesresults].size.should == 9
+        subject[:seriesresults].each do |one_result|
+          one_result.should have_keys ['teamid', 'netpoints', 'rank', 'tied', 'totalpoints']
+        end
+      end
     end
 
     describe 'teams' do
