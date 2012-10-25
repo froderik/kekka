@@ -93,6 +93,13 @@ describe Kekka do
           one_person.should have_keys ['familyname', 'givenname', 'ifpersonid', 'noc', 'personid']
         end
       end
+
+      it "should return Shimon Ben Yakov" do
+        subject['isrsb11']['familyname'].should == 'Ben Yakov'
+        subject['isrsb11']['givenname'].should == 'Shimon'
+        subject['isrsb11']['ifpersonid'].should == 'isrsb11'
+        subject['isrsb11']['noc'].should == 'ISR'
+      end
     end
   end
 end
