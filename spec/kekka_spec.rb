@@ -83,5 +83,16 @@ describe Kekka do
         subject['GERJK6'][:crew].each { |one_crew| one_crew.should have_keys ['personid', 'position'] }
       end
     end
+
+    describe 'persons' do
+      subject { kekka[:persons] }
+
+      it "should return persons" do
+        subject.size.should == 27
+        subject.each do |_, one_person|
+          one_person.should have_keys ['familyname', 'givenname', 'ifpersonid', 'noc', 'personid']
+        end
+      end
+    end
   end
 end

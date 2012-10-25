@@ -5,6 +5,7 @@ class Kekka < Hash
     document = Nokogiri.parse string_or_io
     result = Kekka.new
 
+    result[:persons] = hash_from document, 'person'
     result[:boats] = hash_from document, 'boat'
     result[:teams] = hash_from document, 'team' do  |attributes_hash, node|
       attributes_hash[:crew] = array_from node, 'crew'
