@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SailingXRR Date="20100216" Time="195923" Type="SailingXRR" Version="1.3" 
+		xsi:noNamespaceSchemaLocation="http://www.sailing.org/uploads/xml/sailingXRR_v1.3.xsd" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Person FamilyName="Wang-Hansen" GivenName="Aleksander" IFPersonID="noraw2" NOC="NOR" PersonID="noraw2"/>
+	<Person FamilyName="Kristiansen" GivenName="Per Eugen" IFPersonID="norpk4" NOC="NOR" PersonID="norpk4"/>
+	<Person FamilyName="Solberg" GivenName="Marie" IFPersonID="norms4" NOC="NOR" PersonID="norms4"/>
+	<Person FamilyName="Kroker" GivenName="Jens" IFPersonID="gerjk6" NOC="GER" PersonID="gerjk6"/>
+	<Person FamilyName="Prem" GivenName="Robert" IFPersonID="gerrp4" NOC="GER" PersonID="gerrp4"/>
+	<Person FamilyName="Mainka" GivenName="Siegmund" IFPersonID="gersm16" NOC="GER" PersonID="gersm16"/>
+	<Person FamilyName="Ben Yakov" GivenName="Shimon" IFPersonID="isrsb11" NOC="ISR" PersonID="isrsb11"/>
+	<Person FamilyName="Zehavi" GivenName="Moshe" IFPersonID="isrmz1" NOC="ISR" PersonID="isrmz1"/>
+	<Person FamilyName="Dahan" GivenName="Schlomo" IFPersonID="isrso1" NOC="ISR" PersonID="isrso1"/>
+	<Person FamilyName="Murphy" GivenName="Chris" IFPersonID="usacm113" NOC="USA" PersonID="usacm113"/>
+	<Person FamilyName="Leatherman" GivenName="Jim" IFPersonID="usajl52" NOC="USA" PersonID="usajl52"/>
+	<Person FamilyName="Cogburn" GivenName="Alex" IFPersonID="usaac!" NOC="USA" PersonID="usaac!"/>
+	<Person FamilyName="Doerr" GivenName="Rick" IFPersonID="usaad6" NOC="USA" PersonID="usaad6"/>
+	<Person FamilyName="Kendell" GivenName="Brad" IFPersonID="usabk22" NOC="USA" PersonID="usabk22"/>
+	<Person FamilyName="Freund" GivenName="Hugh" IFPersonID="usahf12" NOC="USA" PersonID="usahf12"/>
+	<Person FamilyName="Twomey" GivenName="John" IFPersonID="irljt3" NOC="IRL" PersonID="irljt3"/>
+	<Person FamilyName="Gil" GivenName="Juan Carlos" IFPersonID="" NOC="" PersonID=""/>
+	<Person FamilyName="Rodriguez" GivenName="Robert" IFPersonID="usarr56" NOC="USA" PersonID="usarr56"/>
+	<Person FamilyName="Robertson" GivenName="John" IFPersonID="gbrjr1" NOC="GBR" PersonID="gbrjr1"/>
+	<Person FamilyName="Stodel" GivenName="Hannah" IFPersonID="gbrhs1" NOC="GBR" PersonID="gbrhs1"/>
+	<Person FamilyName="Thomas" GivenName="Steve" IFPersonID="gbrst1" NOC="GBR" PersonID="gbrst1"/>
+	<Person FamilyName="Jourdren" GivenName="Bruno" IFPersonID="frabj" NOC="FRA" PersonID="frabj"/>
+	<Person FamilyName="FLAGEUL" GivenName="ERIC" IFPersonID="fraef" NOC="FRA" PersonID="fraef"/>
+	<Person FamilyName="VIMONT-VICARY" GivenName="NICOLAS" IFPersonID="franv" NOC="FRA" PersonID="franv"/>
+	<Person FamilyName="Callahan" GivenName="Paul" IFPersonID="usapc39" NOC="USA" PersonID="usapc39"/>
+	<Person FamilyName="Hersey" GivenName="Mike" IFPersonID="usamh29" NOC="USA" PersonID="usamh29"/>
+	<Person FamilyName="Burdett" GivenName="David" IFPersonID="usadb95" NOC="USA" PersonID="usadb95"/>
+	<Boat BoatID="0" BoatName="" SailNumber="NOR 1"/>
+	<Boat BoatID="1" BoatName="" SailNumber="GER 11"/>
+	<Boat BoatID="2" BoatName="" SailNumber="ISR 13"/>
+	<Boat BoatID="3" BoatName="" SailNumber="USA 74"/>
+	<Boat BoatID="4" BoatName="" SailNumber="USA 674"/>
+	<Boat BoatID="5" BoatName="" SailNumber="IRL 694"/>
+	<Boat BoatID="6" BoatName="" SailNumber="GBR 702"/>
+	<Boat BoatID="7" BoatName="" SailNumber="FRA 739"/>
+	<Boat BoatID="8" BoatName="" SailNumber="USA 774"/>
+	<Team Gender="Open" NOC="NOR" TeamID="NORAW2" TeamName="" BoatID="0">
+		<Crew PersonID="NORAW2" Position="S"/>
+		<Crew PersonID="NORPK4" Position="C"/>
+		<Crew PersonID="NORMS4" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="GER" TeamID="GERJK6" TeamName="" BoatID="1">
+		<Crew PersonID="GERJK6" Position="S"/>
+		<Crew PersonID="GERRP4" Position="C"/>
+		<Crew PersonID="GERSM16" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="ISR" TeamID="isrsb11" TeamName="" BoatID="2">
+		<Crew PersonID="isrsb11" Position="S"/>
+		<Crew PersonID="ISRMZ1" Position="C"/>
+		<Crew PersonID="ISRSO1" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="USA" TeamID="usacm113" TeamName="" BoatID="3">
+		<Crew PersonID="usacm113" Position="S"/>
+		<Crew PersonID="USAJL52" Position="C"/>
+		<Crew PersonID="USAAC!" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="USA" TeamID="USAAD6" TeamName="" BoatID="4">
+		<Crew PersonID="USAAD6" Position="S"/>
+		<Crew PersonID="USABK22" Position="C"/>
+		<Crew PersonID="USAHF12" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="IRL" TeamID="IRLJT3" TeamName="" BoatID="5">
+		<Crew PersonID="IRLJT3" Position="S"/>
+		<Crew PersonID="" Position="C"/>
+		<Crew PersonID="USARR56" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="GBR" TeamID="GBRJR1" TeamName="" BoatID="6">
+		<Crew PersonID="GBRJR1" Position="S"/>
+		<Crew PersonID="GBRHS1" Position="C"/>
+		<Crew PersonID="GBRST1" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="FRA" TeamID="FRABJ" TeamName="" BoatID="7">
+		<Crew PersonID="FRABJ" Position="S"/>
+		<Crew PersonID="FRAEF" Position="C"/>
+		<Crew PersonID="FRANV" Position="C"/>
+	</Team>
+	<Team Gender="Open" NOC="USA" TeamID="USAPC39" TeamName="" BoatID="8">
+		<Crew PersonID="USAPC39" Position="S"/>
+		<Crew PersonID="usamh29" Position="C"/>
+		<Crew PersonID="usadb95" Position="C"/>
+	</Team>
+	<Event EventID="9" IFEventID="9756" Title="Sonar">
+		<Race RaceID="30" RaceName="1" RaceNumber="1" RaceStartDate="20100126" RaceStartTime="110000" RaceStatus="Provisional"/>
+		<Race RaceID="32" RaceName="2" RaceNumber="2" RaceStartDate="20100126" RaceStartTime="122100" RaceStatus="Provisional"/>
+		<Race RaceID="33" RaceName="3" RaceNumber="3" RaceStartDate="20100126" RaceStartTime="140515" RaceStatus="Provisional"/>
+		<Race RaceID="111" RaceName="4" RaceNumber="4" RaceStartDate="20100127" RaceStartTime="123000" RaceStatus="Provisional"/>
+		<Race RaceID="112" RaceName="5" RaceNumber="5" RaceStartDate="20100127" RaceStartTime="140000" RaceStatus="Provisional"/>
+		<Race RaceID="383" RaceName="6" RaceNumber="6" RaceStartDate="20100128" RaceStartTime="111000" RaceStatus="Provisional"/>
+		<Race RaceID="395" RaceName="7" RaceNumber="7" RaceStartDate="20100128" RaceStartTime="122505" RaceStatus="Provisional"/>
+		<Race RaceID="413" RaceName="8" RaceNumber="8" RaceStartDate="20100128" RaceStartTime="144505" RaceStatus="Provisional"/>
+		<Race RaceID="415" RaceName="9" RaceNumber="9" RaceStartDate="20100129" RaceStartTime="113005" RaceStatus="Provisional"/>
+		<Race RaceID="416" RaceName="10" RaceNumber="10" RaceStartDate="20100129" RaceStartTime="130000" RaceStatus="Provisional"/>
+		<Division DivisionID="1" Gender="Open" IFDivisionID="15983" Title="Sonar">
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="111" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="112" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="30" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="32" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="33" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="383" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="395" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="413" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="false" RaceID="415" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="FRABJ" Discard="true" RaceID="416" RacePoints="10" ScoreCode="RAF"/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="111" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="112" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="30" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="32" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="33" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="383" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="395" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="413" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="false" RaceID="416" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="GBRJR1" Discard="true" RaceID="415" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="111" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="30" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="32" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="33" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="383" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="395" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="413" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="415" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="false" RaceID="416" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="GERJK6" Discard="true" RaceID="112" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="111" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="112" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="32" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="33" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="383" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="395" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="413" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="415" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="false" RaceID="416" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="IRLJT3" Discard="true" RaceID="30" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="112" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="30" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="32" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="33" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="383" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="395" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="413" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="415" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="false" RaceID="416" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="isrsb11" Discard="true" RaceID="111" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="111" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="112" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="30" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="32" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="33" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="383" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="395" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="413" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="false" RaceID="416" RacePoints="1" ScoreCode=""/>
+			<RaceResult TeamID="NORAW2" Discard="true" RaceID="415" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="111" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="112" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="30" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="33" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="383" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="395" RacePoints="3" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="413" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="415" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="false" RaceID="416" RacePoints="2" ScoreCode=""/>
+			<RaceResult TeamID="USAAD6" Discard="true" RaceID="32" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="111" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="112" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="30" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="33" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="383" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="395" RacePoints="8" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="413" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="415" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="false" RaceID="416" RacePoints="5" ScoreCode=""/>
+			<RaceResult TeamID="usacm113" Discard="true" RaceID="32" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="111" RacePoints="7" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="112" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="30" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="32" RacePoints="6" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="383" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="395" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="413" RacePoints="9" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="415" RacePoints="4" ScoreCode=""/>
+			<RaceResult TeamID="USAPC39" Discard="false" RaceID="416" RacePoints="10" ScoreCode="DNS"/>
+			<RaceResult TeamID="USAPC39" Discard="true" RaceID="33" RacePoints="10" ScoreCode="DNF"/>
+			<SeriesResult TeamID="NORAW2" NetPoints="16" Rank="1" Tied="false" TotalPoints="46"/>
+			<SeriesResult TeamID="GERJK6" NetPoints="38" Rank="5" Tied="false" TotalPoints="90"/>
+			<SeriesResult TeamID="isrsb11" NetPoints="52" Rank="6" Tied="false" TotalPoints="120"/>
+			<SeriesResult TeamID="usacm113" NetPoints="68" Rank="9" Tied="false" TotalPoints="154"/>
+			<SeriesResult TeamID="USAAD6" NetPoints="28" Rank="3" Tied="false" TotalPoints="72"/>
+			<SeriesResult TeamID="IRLJT3" NetPoints="65" Rank="8" Tied="false" TotalPoints="148"/>
+			<SeriesResult TeamID="GBRJR1" NetPoints="24" Rank="2" Tied="false" TotalPoints="64"/>
+			<SeriesResult TeamID="FRABJ" NetPoints="31" Rank="4" Tied="false" TotalPoints="82"/>
+			<SeriesResult TeamID="USAPC39" NetPoints="56" Rank="7" Tied="false" TotalPoints="132"/>
+		</Division>
+	</Event>
+</SailingXRR>
