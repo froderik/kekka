@@ -64,8 +64,10 @@ describe Kekka do
 
       it "should return a bunch of race results" do
         subject[:raceresults].size.should == 90
+        subject[:raceresults].each do |one_result|
+          one_result.should have_keys ['teamid', 'discard', 'raceid', 'racepoints', 'scorecode']
+        end
       end
     end
-
   end
 end
