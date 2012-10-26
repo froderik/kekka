@@ -7,14 +7,17 @@ class Kekka < Hash
 
     result[:persons] = hash_from document, 'person'
     result[:boats] = hash_from document, 'boat'
-    result[:teams] = hash_from document, 'team' do  |attributes_hash, node|
-      attributes_hash[:crew] = array_from node, 'crew'
+    result[:teams] = hash_from document, 'team' do  |team_hash, node|
+      team_hash[:crew] = array_from node, 'crew'
     end
-    result[:events] = hash_from document, 'event' do |attributes_hash, node|
-      attributes_hash[:races]     = hash_from node, 'race'
-      attributes_hash[:divisions] = hash_from node, 'division' do |attributes_hash, node|
-        attributes_hash[:raceresults] = array_from node, 'raceresult'
-        attributes_hash[:seriesresults] = array_from node, 'seriesresult'
+    result[:events] = hash_from document, 'event' do |event_hash, node|
+      event_hash[:races]     = hash_from node, 'race'
+      event_hash[:divisions] = hash_from node, 'division' do |division_hash, node|
+        division_hash[:raceresults] = array_from node, 'raceresult' do |hash, node|
+          team = result[:teams][hash['teamid']]
+          hash['boatid'] = team['boatid']
+        end
+        division_hash[:seriesresults] = array_from node, 'seriesresult'
       end
     end
 
@@ -39,7 +42,11 @@ class Kekka < Hash
   private
 
   def self.array_from node, name
-    node.css(name).map { |one_node| hash_from_node one_node }
+    node.css(name).map do |one_node|
+      hash = hash_from_node one_node
+      yield hash, node if block_given?
+      hash
+    end
   end
 
   def self.hash_from node, name

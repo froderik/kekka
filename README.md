@@ -53,7 +53,8 @@ Doing things like this easier may be added in future versions.
 Manipulation
 ------------
 
-Kekka adds the field 'boatclass' to the boat based on the division that the boat raced in.
+* Kekka adds the field 'boatclass' to the boat based on the division that the boat raced in.
+* Kekka adds the field 'boatid' to race reult hashes. It finds it via 'teamid'.
 
 
 Copyright
