@@ -50,6 +50,12 @@ The event also have divisions that contains both race results and series results
 Doing things like this easier may be added in future versions.
 
 
+Manipulation
+------------
+
+Kekka adds the field 'boatclass' to the boat based on the division that the boat raced in.
+
+
 Copyright
 ---------
 
