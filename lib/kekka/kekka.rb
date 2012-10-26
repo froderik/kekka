@@ -17,7 +17,23 @@ class Kekka < Hash
         attributes_hash[:seriesresults] = array_from node, 'seriesresult'
       end
     end
+
+    result.update_boats_with_class
+
     result
+  end
+
+  def update_boats_with_class
+    self[:events].each do |_, event|
+      event[:divisions].each do |_, division|
+        boat_class = division['title']
+        division[:raceresults].each do |one_result|
+          team = self[:teams][one_result['teamid']]
+          boat = self[:boats][team['boatid']]
+          boat['boatclass'] = boat_class
+        end
+      end
+    end
   end
 
   private

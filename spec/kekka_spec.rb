@@ -21,6 +21,7 @@ describe Kekka do
       it "should return a jolle" do
         subject[:boats]['7']['boatname'].should == 'jolle'
         subject[:boats]['7']['sailnumber'].should == 'FRA 739'
+        subject[:boats]['7']['boatclass'].should == 'Sonar'
       end
 
       it "should return events" do
