@@ -1,9 +1,0 @@
-= kekka
-
-Kekka is a thin ruby library on top of the XML format ISAF XRR (XML Regatta Reporting). In its first version it takes care of parsing the XML and putting data in convenient hashes - it also manages the relations between different data sets. In future versions exports will be supported also.
-
-
-== Copyright
-
-Copyright (c) 2012 Fredrik Rubensson. See LICENSE.txt for further details.
-
