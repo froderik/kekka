@@ -61,6 +61,7 @@ describe Kekka do
       it "should return specifics about a division" do
         subject['title'].should == 'Sonar'
         subject['gender'].should == 'Open'
+        subject['scoretype'].should == 'points'
       end
 
       it "should return a bunch of race results" do

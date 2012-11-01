@@ -18,6 +18,7 @@ class Kekka < Hash
           hash['boatid'] = team['boatid']
         end
         division_hash[:seriesresults] = array_from node, 'seriesresult'
+        division_hash['scoretype'] ||= 'points'
       end
     end
 
