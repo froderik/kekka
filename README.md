@@ -19,7 +19,7 @@ The argument to parse can be exactly the same as what [nokogiris](http://nokogir
 
     kekka[:boats]
 
-Elements that got an idea are put in a Hash with the id as key. So to get to the boat with id '9':
+Elements that got an id are put in a Hash with ids as keys. So to get to the boat with id '9':
 
     kekka[:boats]['9']
 
